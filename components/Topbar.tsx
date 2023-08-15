@@ -7,7 +7,7 @@ import { Theme, Badge, Text, Avatar } from "@radix-ui/themes";
 
 const Topbar = () => {
   return (
-    <div className="flex justify-between px-6 pt-8">
+    <div className="flex justify-between px-6 py-4 bg-black border-b border-b-lightGray2">
       <h2>Overview</h2>
       {/* div for the alert */}
       <div>
@@ -39,7 +39,7 @@ const Topbar = () => {
             size={"2"}
           />
         </Theme>
-        <div className="w-3 h-3 rounded-full bg-green-500 border border-white absolute top-14 right-12"></div>
+        <div className="w-3 h-3 rounded-full bg-teal border border-white absolute top-8 right-11"></div>
 
         <IoIosArrowDown />
       </div>
